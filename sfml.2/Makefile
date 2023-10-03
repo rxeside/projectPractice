@@ -47,10 +47,10 @@ RM = C:\system\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\study\ispring\pp\labs_PP\sfml.1
+CMAKE_SOURCE_DIR = C:\study\ispring\projectPractice\sfml.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\study\ispring\pp\labs_PP\sfml.1
+CMAKE_BINARY_DIR = C:\study\ispring\projectPractice\sfml.2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\pp\labs_PP\sfml.1\CMakeFiles C:\study\ispring\pp\labs_PP\sfml.1\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\projectPractice\sfml.2\CMakeFiles C:\study\ispring\projectPractice\sfml.2\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\pp\labs_PP\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\projectPractice\sfml.2\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,17 +149,17 @@ depend:
 .PHONY : 02/fast
 
 #=============================================================================
-# Target rules for targets named 03
+# Target rules for targets named sfml2.1
 
 # Build rule for target.
-03: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 03
-.PHONY : 03
+sfml2.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sfml2.1
+.PHONY : sfml2.1
 
 # fast build rule for target.
-03/fast:
-	$(MAKE) -f 03\CMakeFiles\03.dir\build.make 03/CMakeFiles/03.dir/build
-.PHONY : 03/fast
+sfml2.1/fast:
+	$(MAKE) -f sfml2.1\CMakeFiles\sfml2.1.dir\build.make sfml2.1/CMakeFiles/sfml2.1.dir/build
+.PHONY : sfml2.1/fast
 
 # Help Target
 help:
@@ -172,7 +172,7 @@ help:
 	@echo ... 00
 	@echo ... 01
 	@echo ... 02
-	@echo ... 03
+	@echo ... sfml2.1
 .PHONY : help
 
 

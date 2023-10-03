@@ -1,14 +1,6 @@
-
 #include <iostream>
-#include <string>
- 
-int main()
-{
-    std::string s = "C+";
-    char ch = '+';
- 
-    s += ch;
-    std::cout << s;
- 
+
+int main() {
+    std::cout << "jfl";
     return 0;
 }

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/study/ispring/pp/labs_PP/sfml.1/00/main.cpp" "C:/study/ispring/pp/labs_PP/sfml.1/00/CMakeFiles/00.dir/main.cpp.obj"
+  "C:/study/ispring/projectPractice/sfml.2/00/main.cpp" "C:/study/ispring/projectPractice/sfml.2/00/CMakeFiles/00.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

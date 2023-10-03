@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/01.dir/includes_CXX.rsp
 

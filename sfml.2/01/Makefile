@@ -47,10 +47,10 @@ RM = C:\system\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\study\ispring\pp\labs_PP\sfml.1
+CMAKE_SOURCE_DIR = C:\study\ispring\projectPractice\sfml.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\study\ispring\pp\labs_PP\sfml.1
+CMAKE_BINARY_DIR = C:\study\ispring\projectPractice\sfml.2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\pp\labs_PP\sfml.1\CMakeFiles C:\study\ispring\pp\labs_PP\sfml.1\01\CMakeFiles\progress.marks
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 01/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\pp\labs_PP\sfml.1\CMakeFiles 0
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\projectPractice\sfml.2\CMakeFiles C:\study\ispring\projectPractice\sfml.2\01\CMakeFiles\progress.marks
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f CMakeFiles\Makefile2 01/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\study\ispring\projectPractice\sfml.2\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 01/clean
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f CMakeFiles\Makefile2 01/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 01/preinstall
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f CMakeFiles\Makefile2 01/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 01/preinstall
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f CMakeFiles\Makefile2 01/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 01/CMakeFiles/01.dir/rule:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 01/CMakeFiles/01.dir/rule
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f CMakeFiles\Makefile2 01/CMakeFiles/01.dir/rule
 .PHONY : 01/CMakeFiles/01.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ depend:
 
 # fast build rule for target.
 01/fast:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/build
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/build
 .PHONY : 01/fast
 
 main.obj: main.cpp.obj
@@ -130,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.obj
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -139,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.i
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -148,7 +148,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.s
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -174,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\study\ispring\pp\labs_PP\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\study\ispring\projectPractice\sfml.2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

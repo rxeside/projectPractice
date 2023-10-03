@@ -1,8 +1,8 @@
-# Install script for directory: C:/study/ispring/pp/labs_PP/sfml.1
+# Install script for directory: C:/study/ispring/projectPractice/sfml.2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml-lab-1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml-lab-2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,10 +29,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/study/ispring/pp/labs_PP/sfml.1/00/cmake_install.cmake")
-  include("C:/study/ispring/pp/labs_PP/sfml.1/01/cmake_install.cmake")
-  include("C:/study/ispring/pp/labs_PP/sfml.1/02/cmake_install.cmake")
-  include("C:/study/ispring/pp/labs_PP/sfml.1/03/cmake_install.cmake")
+  include("C:/study/ispring/projectPractice/sfml.2/00/cmake_install.cmake")
+  include("C:/study/ispring/projectPractice/sfml.2/01/cmake_install.cmake")
+  include("C:/study/ispring/projectPractice/sfml.2/02/cmake_install.cmake")
+  include("C:/study/ispring/projectPractice/sfml.2/sfml2.1/cmake_install.cmake")
 
 endif()
 
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/study/ispring/pp/labs_PP/sfml.1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/study/ispring/projectPractice/sfml.2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
