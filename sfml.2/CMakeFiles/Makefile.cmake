@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "sfml2.1/CMakeLists.txt"
+  "sfml2.2/CMakeLists.txt"
   "C:/system/CppDistro/cmake/share/cmake-3.9/Modules/CMakeCInformation.cmake"
   "C:/system/CppDistro/cmake/share/cmake-3.9/Modules/CMakeCXXInformation.cmake"
   "C:/system/CppDistro/cmake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "01/CMakeFiles/CMakeDirectoryInformation.cmake"
   "02/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sfml2.1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "sfml2.2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -65,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "01/CMakeFiles/01.dir/DependInfo.cmake"
   "02/CMakeFiles/02.dir/DependInfo.cmake"
   "sfml2.1/CMakeFiles/sfml2.1.dir/DependInfo.cmake"
+  "sfml2.2/CMakeFiles/sfml2.2.dir/DependInfo.cmake"
   )
