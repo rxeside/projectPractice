@@ -8,26 +8,28 @@ int main()
     window.clear(sf::Color::Black);
 
     sf::CircleShape leftEye(60, 40);
+    leftEye.setScale(1.f, 2.f);
     leftEye.setFillColor(sf::Color::White);
     leftEye.setOutlineThickness(5);
     leftEye.setOutlineColor(sf::Color::Black);
-    leftEye.setPosition(300, 250);
+    leftEye.setPosition(250, 200);
 
     sf::CircleShape rightEye(60, 40);
+    rightEye.setScale(1.f, 2.f);    
     rightEye.setFillColor(sf::Color::White);
     rightEye.setOutlineThickness(5);
     rightEye.setOutlineColor(sf::Color::Black);
-    rightEye.setPosition(500, 250);
+    rightEye.setPosition(450, 200);
 
     sf::CircleShape leftPupil(30);
     leftPupil.setFillColor(sf::Color::Black);
-    leftPupil.setOrigin(-30, -30);
+    leftPupil.setOrigin(-30, -90);
 
     sf::CircleShape rightPupil(30);
     rightPupil.setFillColor(sf::Color::Black);
-    rightPupil.setOrigin(-30, -30);
+    rightPupil.setOrigin(-30, -90);
 
-    sf::Vector2f pupilMouseDiff(60.f, 60.f);
+    sf::Vector2f pupilMouseDiff(60.f, 120.f);
 
     while (window.isOpen())
     {
@@ -48,11 +50,11 @@ int main()
 
         sf::Vector2f leftDirection = sf::Vector2f(mousePosition.x, mousePosition.y) - leftEyePosition - pupilMouseDiff;
         float leftAngle = std::atan2(leftDirection.y, leftDirection.x);
-        float leftDistance = std::min(30.f, std::max(0.f, std::sqrt(leftDirection.x * leftDirection.x + leftDirection.y * leftDirection.y)));
+        float leftDistance = std::min(40.f, std::max(0.f, std::sqrt(leftDirection.x * leftDirection.x + leftDirection.y * leftDirection.y)));
 
         sf::Vector2f rightDirection = sf::Vector2f(mousePosition.x, mousePosition.y) - rightEyePosition - pupilMouseDiff;
         float rightAngle = std::atan2(rightDirection.y, rightDirection.x);
-        float rightDistance = std::min(30.f, std::max(0.f, std::sqrt(rightDirection.x * rightDirection.x + rightDirection.y * rightDirection.y)));
+        float rightDistance = std::min(40.f, std::max(0.f, std::sqrt(rightDirection.x * rightDirection.x + rightDirection.y * rightDirection.y)));
 
         leftPupilPosition += sf::Vector2f(std::cos(leftAngle) * leftDistance, std::sin(leftAngle) * leftDistance);
         rightPupilPosition += sf::Vector2f(std::cos(rightAngle) * rightDistance, std::sin(rightAngle) * rightDistance);
